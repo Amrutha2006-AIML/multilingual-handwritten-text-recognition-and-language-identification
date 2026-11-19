@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated cache, history, user DB & large artifacts
+**/cache/
+*.pkl
+htr_outputs/
+htr_app/htr_outputs/
+app_history*.json
+history_*.json
+users_db.json
+DataSet/
+*.jpg
+*.jpeg
+*.png
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+
+# OS / editor files
+Thumbs.db
+.DS_Store
